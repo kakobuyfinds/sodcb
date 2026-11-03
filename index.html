@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#e34d28">
+  <meta name="color-scheme" content="light">
+  <title>Sugargoo spreadsheet: finds, maten en QC uitgelegd</title>
+  <meta name="description" content="Gebruik een Sugargoo spreadsheet met aandacht voor productlinks, maten, QC-foto’s en verzendkosten. Een heldere Nederlandse gids met categorieën en keuzehulp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:title" content="Sugargoo spreadsheet: van vondst naar doordachte keuze">
+  <meta property="og:description" content="Bekijk categorieën en leer productlinks, pasvorm, foto’s en totale kosten zorgvuldig vergelijken.">
+  <meta property="og:image" content="https://cdn.sneakersquad.nl/uploads/sneakers/CN0149-001.png?bg=FFF&amp;fit=fill&amp;fm=webp&amp;h=1200&amp;pad=40&amp;signature=6669ef02&amp;trim=auto&amp;trim-sd=1&amp;v=1701688038&amp;w=1200">
+  <meta property="og:image:alt" content="Zilverkleurige Nike P-6000 sneaker met zwarte Swoosh, van opzij gezien">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sugargoo spreadsheet: finds, maten en QC uitgelegd">
+  <meta name="twitter:description" content="Een Nederlandse leeswijzer voor productlinks, pasvorm, QC-foto’s en verzendkosten.">
+  <link rel="preconnect" href="https://cdn.sneakersquad.nl" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e34d28'/%3E%3Cpath d='M17 15h8v13h14V15h8v34h-8V36H25v13h-8z' fill='white'/%3E%3C/svg%3E">
+  <!--
+    Bestandsnaam: index.html. Voeg na publicatie een absolute, zelfverwijzende
+    canonical en og:url toe met de werkelijke URL van deze pagina.
+    Er is bewust geen andere website als canonical opgegeven.
+
+    Onderzoeksnotitie: gezocht op "Sugargoo spreadsheet". De Google-resultatenpagina
+    was niet rechtstreeks toegankelijk. Deze tien via een zoekdienst gevonden en
+    geopende websites vormen dus geen geverifieerde Google-top-10 of ranglijst.
+    Geobserveerde zoektermen en inhoudspatronen, niet hun commerciële claims:
+    sugargootab.com — shoes, clothing, product links; categorieën en uitleg.
+    sugargoohaul2026.com/guides — finds, links, QC, haul, shipping; thematische gidsen.
+    sugargoooo.com — spreadsheet gebruiken, vergelijken; stapsgewijze keuzehulp.
+    sugargo.net — spreadsheet, kledingcategorieën; beknopte categorienavigatie.
+    sugargootop.com/guides — sizing, QC, shipping; vragen rond een bestelling.
+    sugargoo.guide — spreadsheetkolommen, productnamen; uitleg voor beginners.
+    sugargoo-spreadsheets.org — schoenen, tassen, sieraden; thematische collecties.
+    sugargoowithqc.com/spreadsheet — categorieën, QC-foto’s; vergelijkingsinformatie.
+    sugargoo-sheets.com — finds, foto’s, categorieën; visueel bladeren.
+    sugagoo.com — Weidian finds, QC, productlinks; categoriegerichte landingspagina.
+
+    Hoofdterm: Sugargoo spreadsheet.
+    Vijf secundaire thema’s: Sugargoo finds; Sugargoo productlinks;
+    Sugargoo maattabel; Sugargoo QC-foto’s; Sugargoo verzendkosten.
+    Dertig longtailonderwerpen zijn verwerkt in de zichtbare keuzehulp, artikelen
+    en FAQ: beginners, schoenen, kleding, accessoires, links controleren, finds
+    vergelijken, voetlengte, schoenbreedte, binnenzool, hoodiematen, borstbreedte,
+    schouderbreedte, broeklengte, hoofdomtrek, materiaalinformatie, sieradendetails,
+    armbandsluiting, oorbelafmetingen, QC bekijken, foto’s vergelijken, kleurverschil,
+    onduidelijke links, varianten vastleggen, Nederland, België, pakketafmetingen,
+    totale kosten, retourvoorwaarden, verzendopties en ontbrekende informatie.
+  -->
+  <style>
+    :root{--paper:#f2f1ec;--white:#fff;--ink:#292824;--muted:#615e57;--line:#d9d6cc;--orange:#e34d28;--soft:#fce4d9;--radius:18px}
+    *{box-sizing:border-box}
+    html{background:var(--paper);-webkit-text-size-adjust:100%}
+    body{margin:0;color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration-thickness:1px;text-underline-offset:4px}
+    a:hover{text-decoration-thickness:2px}
+    a:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}
+    img{display:block;width:100%;height:auto;object-fit:contain}
+    figure,p,h1,h2,h3{margin:0}
+    h1,h2,h3{line-height:1.1;text-wrap:balance}
+    h1{font-size:clamp(2.8rem,6.9vw,6.2rem);letter-spacing:-.065em;font-weight:800;max-width:1000px}
+    h2{font-size:clamp(1.8rem,3.5vw,3rem);letter-spacing:-.045em}
+    h3{font-size:1.3rem;letter-spacing:-.025em}
+    p+p{margin-top:1rem}
+    strong{font-weight:750}
+    .wrap{width:min(1160px,calc(100% - 48px));margin-inline:auto}
+    .masthead{border-bottom:1px solid var(--line)}
+    .masthead .wrap{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-size:1.22rem;font-weight:850;text-decoration:none;letter-spacing:-.06em}
+    .brand b{color:var(--orange)}
+    .edition{font-size:.72rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted)}
+    .top-link{font-size:.87rem;font-weight:700}
+    .categories{padding:23px 0 26px}
+    .nav-label,.eyebrow{font-size:.73rem;letter-spacing:.15em;font-weight:800;text-transform:uppercase}
+    .nav-label{margin-bottom:11px;color:var(--muted)}
+    .category-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}
+    .category-grid a{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:11px 12px;border:1px solid var(--line);background:var(--white);border-radius:6px;text-decoration:none;font-size:.82rem;font-weight:650;overflow-wrap:anywhere}
+    .category-grid a::after{content:"↗";color:var(--orange);font-size:1rem}
+    .category-grid a:hover{border-color:var(--orange);background:var(--soft)}
+    .intro{padding:35px 0 31px;border-top:2px solid var(--ink)}
+    .intro .eyebrow{color:#a53218;margin-bottom:16px}
+    .intro h1 span{color:var(--orange)}
+    .intro-bottom{display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:end;margin-top:26px}
+    .lead{font-size:1.1rem;max-width:680px}
+    .small{font-size:.85rem;color:var(--muted)}
+    .visual-spread{display:grid;grid-template-columns:1.65fr 1fr;gap:12px}
+    .shoe-panel{background:var(--white);border-radius:var(--radius);overflow:hidden}
+    .shoe-panel img{aspect-ratio:1.6;background:#fff}
+    .shoe-panel figcaption{border-top:1px solid var(--line);padding:14px 20px;display:flex;justify-content:space-between;gap:16px;font-size:.81rem}
+    .cap-panel{background:var(--orange);color:#fff;border-radius:var(--radius);padding:23px;display:flex;flex-direction:column;justify-content:space-between}
+    .cap-panel img{height:240px;max-width:270px;align-self:center;background:#fff;border-radius:50%;margin:17px 0;aspect-ratio:1}
+    .cap-panel figcaption{font-size:.85rem}
+    .cap-panel strong{display:block;font-size:1.6rem;line-height:1.1;letter-spacing:-.035em}
+    .image-note{margin-top:12px;font-size:.78rem;color:var(--muted)}
+    .answer{margin:42px 0 0;padding:27px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:210px 1fr;gap:36px}
+    .answer h2{font-size:1.1rem;letter-spacing:-.01em;line-height:1.35}
+    .answer p{font-size:1.08rem;max-width:810px}
+    .section{padding:64px 0;border-bottom:1px solid var(--line)}
+    .section-heading{display:flex;justify-content:space-between;align-items:start;gap:28px;margin-bottom:30px}
+    .section-heading>p{max-width:340px;font-size:.93rem;color:var(--muted)}
+    .section-heading .eyebrow{margin-bottom:12px;color:#a53218}
+    .decision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+    .decision{padding:25px;background:var(--white)}
+    .decision+.decision{border-left:1px solid var(--line)}
+    .decision .number{display:block;color:var(--orange);font-size:2.7rem;letter-spacing:-.07em;font-weight:800;line-height:1;margin-bottom:30px}
+    .decision h3{margin-bottom:12px}
+    .decision p{font-size:.94rem}
+    .decision a{display:inline-block;margin-top:20px;font-size:.87rem;font-weight:750}
+    .article{display:grid;grid-template-columns:95px 1fr;gap:30px;padding:38px 0;border-top:1px solid var(--line)}
+    .article:first-of-type{border-top:0;padding-top:0}
+    .article-number{font-size:3.8rem;font-weight:300;letter-spacing:-.08em;color:#8a5745;line-height:1}
+    .article h3{font-size:clamp(1.5rem,2.7vw,2.1rem);margin-bottom:18px;max-width:760px}
+    .article-content{max-width:910px}
+    .article-content>p{max-width:790px}
+    .article-columns{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:22px}
+    .article ul{margin:17px 0 0;padding-left:21px}
+    .article li+li{margin-top:9px}
+    .note{background:var(--soft);border-left:3px solid var(--orange);padding:17px 20px;margin-top:23px;font-size:.93rem}
+    .clothing-layout{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:start}
+    .clothing-layout figure{background:#fff;border-radius:12px;overflow:hidden}
+    .clothing-layout img{aspect-ratio:1}
+    .clothing-layout figcaption{padding:13px 18px;border-top:1px solid var(--line);font-size:.79rem;color:var(--muted)}
+    .detail-layout{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;margin-top:23px}
+    .detail-photos{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+    .detail-photos figure{background:#fff;border-radius:12px;overflow:hidden}
+    .detail-photos img{aspect-ratio:1;object-fit:contain}
+    .detail-photos figcaption{padding:12px;font-size:.76rem;line-height:1.5}
+    .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--white)}
+    table{width:100%;border-collapse:collapse;min-width:620px;font-size:.91rem;text-align:left}
+    caption{text-align:left;padding:18px 20px;font-weight:750;background:var(--ink);color:#fff}
+    th,td{padding:16px 20px;border-bottom:1px solid var(--line);vertical-align:top}
+    thead th{background:#e9e7df;font-size:.8rem}
+    tbody tr:last-child>*{border-bottom:0}
+    tbody th{width:22%}
+    .budget{margin-top:23px;display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .budget h3{margin-bottom:12px}
+    .checklist{margin:0;padding-left:20px}
+    .checklist li+li{margin-top:9px}
+    .faq-layout{display:grid;grid-template-columns:.8fr 1.7fr;gap:70px}
+    .faq-intro p{margin-top:18px;color:var(--muted)}
+    details{border-top:1px solid var(--line);padding:19px 0}
+    details:last-child{border-bottom:1px solid var(--line)}
+    summary{cursor:pointer;font-weight:750;line-height:1.45;padding-right:12px}
+    details p{padding-top:14px;color:var(--muted);max-width:700px}
+    .closing{background:var(--ink);color:#fff;border-radius:var(--radius);padding:36px;margin:42px 0;display:flex;align-items:center;justify-content:space-between;gap:35px}
+    .closing h2{font-size:2rem;max-width:590px}
+    .closing p{margin-top:12px;color:#d1cec5;max-width:600px}
+    .button{display:inline-flex;justify-content:center;align-items:center;padding:14px 20px;border-radius:7px;font-weight:750;font-size:.9rem;text-decoration:none;white-space:nowrap;background:var(--orange);color:#fff}
+    .button:hover{background:#bc3514}
+    footer{padding:0 0 30px}
+    .footer-inner{display:flex;justify-content:space-between;gap:25px;align-items:start;font-size:.78rem;color:var(--muted)}
+    .footer-inner p{max-width:760px}
+    @media(min-width:1000px){.section{content-visibility:auto;contain-intrinsic-size:auto 650px}}
+    @media(max-width:850px){.category-grid{grid-template-columns:repeat(3,1fr)}.intro-bottom{gap:25px}.visual-spread{grid-template-columns:1.4fr 1fr}.cap-panel{padding:18px}.cap-panel img{height:180px;max-width:180px}.answer{grid-template-columns:160px 1fr;gap:25px}.article{grid-template-columns:65px 1fr;gap:20px}.clothing-layout,.detail-layout{grid-template-columns:1fr}.clothing-layout figure{max-width:380px}.detail-photos{max-width:500px}.faq-layout{gap:30px}.closing{align-items:start;flex-direction:column}.decision{padding:20px}}
+    @media(max-width:600px){.wrap{width:calc(100% - 28px)}.masthead .wrap{min-height:71px;gap:10px}.edition{display:none}.top-link{font-size:.76rem}.categories{padding:18px 0}.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.category-grid a{font-size:.78rem;min-height:45px;padding:9px 10px}.intro{padding:27px 0}.intro-bottom{grid-template-columns:1fr;gap:17px}.lead{font-size:1rem}.visual-spread{grid-template-columns:1fr}.shoe-panel img{aspect-ratio:1.4}.cap-panel{display:grid;grid-template-columns:1fr 140px;gap:12px;align-items:center}.cap-panel img{grid-column:2;grid-row:1 / 3;margin:0;width:140px;height:140px}.cap-panel strong{font-size:1.45rem}.cap-panel figcaption{font-size:.78rem}.cap-panel .eyebrow{font-size:.65rem}.answer{grid-template-columns:1fr;gap:13px;margin-top:30px}.answer p{font-size:1rem}.section{padding:42px 0}.section-heading{flex-direction:column;gap:15px}.section-heading>p{max-width:none}.decision-grid{grid-template-columns:1fr}.decision+.decision{border-left:0;border-top:1px solid var(--line)}.decision .number{font-size:2rem;margin-bottom:18px}.article{grid-template-columns:1fr;gap:13px;padding:30px 0}.article-number{font-size:2.4rem}.article-columns,.budget,.faq-layout{grid-template-columns:1fr;gap:24px}.closing{padding:26px;margin:30px 0}.closing h2{font-size:1.7rem}.button{white-space:normal}.footer-inner{flex-direction:column;gap:15px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "@id":"#webpagina",
+        "name":"Sugargoo spreadsheet: finds, maten en QC uitgelegd",
+        "description":"Een Nederlandse gids voor het vergelijken van productlinks, maten, QC-foto’s en verzendkosten.",
+        "inLanguage":"nl",
+        "about":{"@type":"Thing","name":"Een Sugargoo spreadsheet gebruiken"},
+        "hasPart":[{"@id":"#artikel-schoenen"},{"@id":"#artikel-kleding"},{"@id":"#artikel-accessoires"},{"@id":"#veelgestelde-vragen"}]
+      },
+      {
+        "@type":"Article",
+        "@id":"#artikel-schoenen",
+        "headline":"Schoenen: maak de maat concreet vóór je vergelijkt",
+        "description":"Voetlengte, schoenbreedte en binnenzoolmetingen gebruiken om sneakeropties te vergelijken.",
+        "inLanguage":"nl",
+        "isPartOf":{"@id":"#webpagina"}
+      },
+      {
+        "@type":"Article",
+        "@id":"#artikel-kleding",
+        "headline":"Kleding: beoordeel de snit, niet alleen het label",
+        "description":"Borstbreedte, schouders, lengte en materiaalinformatie vergelijken met een passend kledingstuk.",
+        "inLanguage":"nl",
+        "isPartOf":{"@id":"#webpagina"}
+      },
+      {
+        "@type":"Article",
+        "@id":"#artikel-accessoires",
+        "headline":"Accessoires: kleine afmetingen, grote verschillen",
+        "description":"Hoofdomtrek, sjaalformaat, sluitingen en afmetingen van sieraden vastleggen voordat je beslist.",
+        "inLanguage":"nl",
+        "isPartOf":{"@id":"#webpagina"}
+      },
+      {
+        "@type":"FAQPage",
+        "@id":"#veelgestelde-vragen",
+        "inLanguage":"nl",
+        "isPartOf":{"@id":"#webpagina"},
+        "mainEntity":[
+          {"@type":"Question","name":"Wat is een Sugargoo spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Een Sugargoo spreadsheet is een overzicht van productvondsten en bronlinks dat mensen gebruiken bij hun voorbereiding op aankopen via Sugargoo. Het kan een echt rekenblad of een website met categorieën zijn. Een vermelding bewijst geen beschikbaarheid, kwaliteit of acceptatie door de agent."}},
+          {"@type":"Question","name":"Hoe gebruik ik een Sugargoo spreadsheet voor beginners?","acceptedAnswer":{"@type":"Answer","text":"Begin bij één categorie. Bewaar de exacte productlink, kies de gewenste variant en vergelijk de maattabel met je eigen maten. Noteer ontbrekende informatie en controleer de actuele voorwaarden voordat je verdergaat."}},
+          {"@type":"Question","name":"Waar openen de product- en categorielinks op deze pagina?","acceptedAnswer":{"@type":"Answer","text":"De tien categorieknoppen openen de bijbehorende categorie op hipobuyfind.com. Alle overige bezoeklinks openen https://www.hipobuyfind.com. Deze pagina plaatst geen bestelling en koppelt geen product automatisch aan een Sugargoo-account."}},
+          {"@type":"Question","name":"Bewijzen Sugargoo QC-foto’s dat een artikel authentiek is?","acceptedAnswer":{"@type":"Answer","text":"Nee. QC-foto’s kunnen zichtbare eigenschappen en afwijkingen tonen, maar bewijzen op zichzelf geen authenticiteit, materiaalgehalte of duurzaamheid. Controleer ook of de foto’s bij jouw exacte artikelvariant horen."}},
+          {"@type":"Question","name":"Hoe kan ik Sugargoo verzendkosten vergelijken?","acceptedAnswer":{"@type":"Answer","text":"Gebruik je bestemming, de actuele pakketgegevens en de beschikbare verzendopties. Vergelijk wat een offerte omvat en welke kosten nog ontbreken. De artikelprijs of een ongewogen verzameling producten is onvoldoende voor een betrouwbare totaalprijs."}},
+          {"@type":"Question","name":"Kan ik ieder afgebeeld merk via Sugargoo bestellen?","acceptedAnswer":{"@type":"Answer","text":"Ga daar niet van uit. Controleer vóór betaling of de agent het exacte artikel accepteert en of een passende verzendroute beschikbaar is. De merkbeelden op deze pagina zijn illustraties, geen bevestiging van bestelbaarheid of officiële samenwerking."}},
+          {"@type":"Question","name":"Wat doe ik met een productlink die niet meer werkt?","acceptedAnswer":{"@type":"Answer","text":"Bewaar de oorspronkelijke link met je controledatum en markeer het artikel als niet bevestigd. Zoek een alternatief op basis van de precieze variant en controleer de nieuwe bron opnieuw; een vergelijkbare foto bewijst niet dat het hetzelfde artikel is."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/sodcb/">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com" aria-label="HIPOBUYFIND openen">HIPO<b>BUY</b>FIND<span aria-hidden="true"> ↗</span></a>
+      <span class="edition">Keuzenotities / Nederlands</span>
+      <a class="top-link" href="https://www.hipobuyfind.com">Bekijk de catalogus ↗</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="categories" aria-label="Productcategorieën op HIPOBUYFIND">
+      <p class="nav-label">Kies eerst je categorie</p>
+      <div class="category-grid">
+        <a href="https://hipobuyfind.com/category-911-Shoes.html" lang="en">Shoes</a>
+        <a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html" lang="en">Hoodies/Sweaters</a>
+        <a href="https://hipobuyfind.com/category-913-T-Shirts.html" lang="en">T-Shirts</a>
+        <a href="https://hipobuyfind.com/category-914-Jackets.html" lang="en">Jackets</a>
+        <a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html" lang="en">Pants/Shorts</a>
+        <a href="https://hipobuyfind.com/category-916-Headwear.html" lang="en">Headwear</a>
+        <a href="https://hipobuyfind.com/category-917-Sets.html" lang="en">Sets</a>
+        <a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html" lang="en">Underwear/underpants</a>
+        <a href="https://hipobuyfind.com/category-919-Jersey.html" lang="en">Jersey</a>
+        <a href="https://hipobuyfind.com/category-920-Accessories.html" lang="en">Accessories</a>
+      </div>
+    </nav>
+
+    <section class="intro" aria-labelledby="paginatitel">
+      <p class="eyebrow">Sugargoo spreadsheet / De Nederlandse leeswijzer</p>
+      <h1 id="paginatitel">Een vondst valt op.<br><span>Een goede keuze klopt.</span></h1>
+      <div class="intro-bottom">
+        <p class="lead">Gebruik een <strong>Sugargoo spreadsheet</strong> om gericht te zoeken. Hier lees je hoe je van een aantrekkelijke foto naar een bruikbare vergelijking gaat: met de juiste maat, duidelijke productlinks en zicht op de totale kosten.</p>
+        <p class="small">Onafhankelijke keuzehulp voor schoenen, kleding en accessoires. De categorieën openen HIPOBUYFIND; beschikbaarheid en agentacceptatie controleer je bij de actuele bron.</p>
+      </div>
+    </section>
+
+    <div class="visual-spread" aria-label="Visuele referenties voor schoenen en hoofddeksels">
+      <figure class="shoe-panel">
+        <img src="https://cdn.sneakersquad.nl/uploads/sneakers/CN0149-001.png?bg=FFF&amp;fit=fill&amp;fm=webp&amp;h=1200&amp;pad=40&amp;signature=6669ef02&amp;trim=auto&amp;trim-sd=1&amp;v=1701688038&amp;w=1200" width="1200" height="1200" alt="Zilverkleurige Nike P-6000 sneaker met zwarte Swoosh en gelaagd bovenwerk, van opzij gezien" fetchpriority="high" loading="eager" decoding="async">
+        <figcaption><strong>Nike P-6000</strong><span>Bekijk vorm én pasvorm</span></figcaption>
+      </figure>
+      <figure class="cap-panel">
+        <p class="eyebrow">Een detail om op te letten</p>
+        <img src="https://uk.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-only-lv-beanie--M97198_PM1_Side%20view.png?hei=480&amp;wid=480&amp;fmt=webp&amp;qlt=80" width="480" height="480" alt="Oranje Louis Vuitton Only LV muts met geribbelde structuur en omgeslagen rand" loading="lazy" decoding="async">
+        <figcaption><strong>De pasvorm zit<br>in de gegevens.</strong><br>Louis Vuitton muts als vormreferentie: vergelijk omtrek, hoogte en rek.</figcaption>
+      </figure>
+    </div>
+    <p class="image-note">Merkbeelden dienen als visuele referentie. Ze tonen geen voorraad, gecontroleerde vondsten of producten die via de gelinkte catalogus bestelbaar zijn.</p>
+
+    <aside class="answer" aria-labelledby="kort-antwoord">
+      <h2 id="kort-antwoord">Wat heb je aan een Sugargoo spreadsheet?</h2>
+      <p>Het is een vertrekpunt om <strong>productvondsten en bronlinks te ordenen</strong>. Een bruikbare vergelijking koppelt een exacte variant aan maten, foto’s en open vragen. De doorslag geeft wat je kunt controleren, niet hoeveel regels een lijst bevat.</p>
+    </aside>
+
+    <section class="section" aria-labelledby="kiesrichting">
+      <div class="section-heading">
+        <div><p class="eyebrow">Begin met je vraag</p><h2 id="kiesrichting">Wat wil je eerst weten?</h2></div>
+        <p>Sugargoo finds vergelijken gaat makkelijker als je één beslispunt tegelijk onderzoekt.</p>
+      </div>
+      <div class="decision-grid">
+        <div class="decision">
+          <span class="number" aria-hidden="true">01</span>
+          <h3>Past het bij mijn gebruik?</h3>
+          <p>Begin je Sugargoo spreadsheet voor schoenen bij het soort paar dat je zoekt. Voor dagelijks lopen spelen breedte, zoolvorm en draagcomfort een andere rol dan bij een keuze voor een specifieke uitstraling.</p>
+          <a href="https://hipobuyfind.com/category-911-Shoes.html">Schoenen bekijken ↗</a>
+        </div>
+        <div class="decision">
+          <span class="number" aria-hidden="true">02</span>
+          <h3>Welke snit zoek ik?</h3>
+          <p>Gebruik je Sugargoo spreadsheet voor kleding, bepaal dan eerst of je aangesloten, recht of ruim wilt dragen. Vergelijk daarna centimeters, met ruimte voor een laag eronder als je die nodig hebt.</p>
+          <a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies en truien bekijken ↗</a>
+        </div>
+        <div class="decision">
+          <span class="number" aria-hidden="true">03</span>
+          <h3>Welk detail maakt verschil?</h3>
+          <p>Bij een Sugargoo spreadsheet voor accessoires kunnen een sluiting, het gewicht of de afmetingen de keuze bepalen. Vraag die gegevens op als een sfeerfoto ze niet duidelijk laat zien.</p>
+          <a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires bekijken ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="artikelen">
+      <div class="section-heading">
+        <div><p class="eyebrow">Drie praktische artikelen</p><h2 id="artikelen">Lees het product, niet alleen de foto.</h2></div>
+        <p>Bewaar bij elke vondst wat je weet, wat je hebt gemeten en wat nog ontbreekt.</p>
+      </div>
+
+      <article class="article" id="artikel-schoenen" aria-labelledby="schoenentitel">
+        <span class="article-number" aria-hidden="true">01</span>
+        <div class="article-content">
+          <h3 id="schoenentitel">Schoenen: maak de maat concreet vóór je vergelijkt</h3>
+          <p>Sneakers op voetlengte kiezen begint met een meting van beide voeten. Meet staand, van hiel tot langste teen, en noteer de grootste waarde. Leg die naast de productgebonden maattabel. Een tabel kan voetlengte of een andere maat weergeven; controleer het meetbegrip voordat je een maat selecteert.</p>
+          <div class="article-columns">
+            <div>
+              <p><strong>Lengte is één onderdeel.</strong> Schoenbreedte en pasvorm vergelijken vraagt ook aandacht voor de voorvoet en de vorm rond de tenen. Vraag aanvullende maten als de beschrijving daar niets over zegt.</p>
+              <p>Wil je de binnenzool in centimeters meten, vergelijk dan dezelfde meetmethode met een paar dat goed zit. Een losse binnenzoolmeting en voetlengte zijn geen uitwisselbare waarden.</p>
+            </div>
+            <div>
+              <p><strong>Leg de variant vast.</strong> Bewaar model, kleur, maat en bronlink samen. Zo voorkom je dat je maten van de ene uitvoering gebruikt voor een andere.</p>
+              <p>Bij een zijfoto zie je de verhouding tussen bovenwerk en zool. Vraag voor andere vragen een passend beeld: een bovenaanzicht voor de vorm of een meetfoto voor een maatcontrole.</p>
+            </div>
+          </div>
+          <p class="note">Werkbare notitie: “Deze variant past mogelijk; de breedte is nog onbekend.” Dat maakt duidelijk welke informatie je volgende stap moet opleveren.</p>
+        </div>
+      </article>
+
+      <article class="article" id="artikel-kleding" aria-labelledby="kledingtitel">
+        <span class="article-number" aria-hidden="true">02</span>
+        <div class="article-content">
+          <h3 id="kledingtitel">Kleding: beoordeel de snit, niet alleen het label</h3>
+          <div class="clothing-layout">
+            <div>
+              <p>Een Sugargoo maattabel wordt nuttig als je dezelfde maten van een eigen kledingstuk ernaast zet. Leg dat kledingstuk vlak neer zonder het uit te rekken. Noteer of een tabel een vlak gemeten breedte of de volledige omtrek bedoelt; dat voorkomt een grote interpretatiefout.</p>
+              <ul>
+                <li><strong>Maattabel voor hoodies lezen:</strong> vergelijk borstbreedte, lichaamslengte en mouwlengte als samenhangend geheel.</li>
+                <li><strong>Borstbreedte van een T-shirt meten:</strong> meet op dezelfde plaats als in de producttabel, vaak tussen de oksels.</li>
+                <li><strong>Schouderbreedte van een jas vergelijken:</strong> kijk ook naar de naadconstructie; een verlaagde schouder valt anders.</li>
+                <li><strong>Broeklengte en taille controleren:</strong> noteer binnenbeen of buitenbeen en maak onderscheid tussen ontspannen en uitgerekte taille.</li>
+              </ul>
+              <p style="margin-top:18px">Materiaalinformatie bij kleding controleren vraagt een leesbaar samenstellingsetiket of een duidelijke productspecificatie. Glans en structuur op een foto zijn onvoldoende om vezelgehalte vast te stellen. Noteer onbekende gegevens als onbekend.</p>
+            </div>
+            <figure>
+              <img src="https://media.gucci.com/style/DarkGray_Center_0_0_600x600/1777566658/875092_XJH0U_9066_006_100_0000_Light-cotton-jersey-polo-shirt-with-web.jpg" width="600" height="600" alt="Witte Gucci polo met korte mouwen, kraag en een groen-rood-groene streep over de borst" loading="lazy" decoding="async">
+              <figcaption>Gucci polo als kledingreferentie. De kraag, schouders en zoom geven verschillende meetpunten; de foto vervangt geen maattabel.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="article" id="artikel-accessoires" aria-labelledby="accessoiretitel">
+        <span class="article-number" aria-hidden="true">03</span>
+        <div class="article-content">
+          <h3 id="accessoiretitel">Accessoires: kleine afmetingen, grote verschillen</h3>
+          <p>Een accessoire kan op een uitvergrote foto groter lijken dan je verwacht. Zet daarom eerst de werkelijke afmetingen naast je voorkeur. Een sjaalformaat bepaalt hoe je hem kunt knopen; bij oorbellen zijn lengte, diameter en eventueel het vermelde gewicht bruikbaar om uitvoeringen te vergelijken.</p>
+          <div class="detail-layout">
+            <div>
+              <p><strong>Hoofdomtrek voor een muts meten:</strong> meet rondom waar de rand komt te zitten. Vraag daarnaast naar de rek en hoogte van de muts, omdat één omtrek niet alles over de pasvorm vertelt.</p>
+              <p><strong>Detailfoto’s van sieraden beoordelen:</strong> kijk naar de aansluiting van onderdelen en vraag een apart beeld van de sluiting. Wil je de sluiting van een armband controleren, bekijk dan ook hoe die opent en sluit.</p>
+              <p><strong>Afmetingen van oorbellen vergelijken:</strong> noteer dezelfde eenheid en zet de maat desgewenst op papier uit. Vraag materiaalgegevens apart op; kleur op een scherm zegt niets definitiefs over samenstelling.</p>
+            </div>
+            <div class="detail-photos">
+              <figure>
+                <img src="https://assets.hermes.com/is/image/hermesproduct/lenco-140-animapolis--673275S%2004-worn-3-0-0-800-800_g.jpg" width="800" height="800" alt="Gedragen Hermès Animapolis sjaal met een kleurrijke stadsillustratie en oranje rand" loading="lazy" decoding="async">
+                <figcaption>Hermès Animapolis: een gedragen beeld helpt bij de schaal en manier van knopen.</figcaption>
+              </figure>
+              <figure>
+                <img src="https://assets.christiandior.com/is/image/diorprod/E0078MIDRSD301_SBG_E01-1?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;hei=650&amp;scale=1&amp;wid=520&amp;fmt=webp&amp;qlt=80" width="520" height="650" alt="Dior Tribales oorbellen met kleine en grote witte parelvormige elementen en goudkleurige metalen onderdelen" loading="lazy" decoding="async">
+                <figcaption>Dior Tribales: vergelijk de grootte van beide elementen en het type sluiting.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" aria-labelledby="controle">
+      <div class="section-heading">
+        <div><p class="eyebrow">Productlink → controleerbare notitie</p><h2 id="controle">Wat weet je echt over deze vondst?</h2></div>
+        <p>Sugargoo productlinks controleren betekent ook vastleggen welke informatie nog geen bevestiging heeft.</p>
+      </div>
+      <div class="table-wrap" role="region" aria-label="Controlepunten voor productlinks en foto’s" tabindex="0">
+        <table>
+          <caption>Een compacte controlekaart voor iedere bewaarde variant</caption>
+          <thead><tr><th scope="col">Onderdeel</th><th scope="col">Wat leg je vast?</th><th scope="col">Wat controleer je nog?</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Bronlink</th><td>Exacte URL, artikelnaam en controledatum.</td><td>Opent de link het bedoelde artikel, zonder verwarring over uitvoering?</td></tr>
+            <tr><th scope="row">Maat en variant</th><td>Kleur, maat, uitvoering en gebruikte meetmethode.</td><td>Horen de tabel en foto’s bij deze variant?</td></tr>
+            <tr><th scope="row">Foto’s</th><td>Herkomst van de beelden en welke details zichtbaar zijn.</td><td>Zijn het productbeelden, referenties of foto’s van je eigen ontvangen artikel?</td></tr>
+            <tr><th scope="row">Kosten</th><td>Getoond bedrag, valuta en datum, plus bekende extra posten.</td><td>Welke kosten ontbreken nog in je berekening?</td></tr>
+            <tr><th scope="row">Open vraag</th><td>Eén concrete vraag, zoals ontbrekende schoudermaat.</td><td>Welke meting of foto kan die vraag beantwoorden?</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="budget">
+        <div>
+          <h3>Sugargoo QC-foto’s: stel een gerichte vraag</h3>
+          <p>Een productfoto en QC-foto vergelijken is vooral zinvol als je weet welke uitvoering je verwacht. Begin bij kleur, maatlabel en zichtbare constructie. Kleurverschil op productfoto’s beoordelen blijft lastig door licht en scherminstellingen; vraag bij twijfel een extra beeld onder vergelijkbare omstandigheden.</p>
+          <p>Wil je Sugargoo QC-foto’s bekijken voor je eigen aankoop, controleer dan in je account of ze bij jouw bestelling horen. Een algemene referentiefoto is geen bewijs voor het artikel dat jij ontvangt.</p>
+        </div>
+        <div>
+          <h3>Onduidelijke link? Eerst informatie aanvullen.</h3>
+          <ul class="checklist">
+            <li>Een onduidelijke productlink herkennen: titel, afbeelding en gekozen variant spreken elkaar tegen of essentiële gegevens ontbreken.</li>
+            <li>Artikelvariant en maat vastleggen: bewaar de volledige keuze naast de bron, niet alleen een screenshot.</li>
+            <li>Ontbrekende productinformatie opvragen: formuleer één meetbare vraag in plaats van “Is dit goed?”.</li>
+            <li>Retourvoorwaarden vóór bestellen lezen: controleer de voorwaarden voor het exacte artikel en de betreffende bestelstap.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="kosten">
+      <div class="section-heading">
+        <div><p class="eyebrow">De hele aankoop bekijken</p><h2 id="kosten">Een artikelprijs is nog geen totaal.</h2></div>
+        <p>Voor Sugargoo verzendkosten heb je actuele pakketgegevens en je eigen bestemming nodig.</p>
+      </div>
+      <div class="budget">
+        <div>
+          <h3>Totale aankoopkosten berekenen</h3>
+          <p>Maak ruimte voor de artikelprijs, binnenlands vervoer, eventuele service- en betaalkosten, internationale verzending en eventuele invoerheffingen. Controleer per offerte wat al inbegrepen is, zodat je een post niet dubbel telt of vergeet.</p>
+          <p>Pakketgewicht en afmetingen controleren helpt om offertes op dezelfde basis te bekijken. Vraag welke gegevens de vervoerder gebruikt voor de berekening en of verpakking in de opgegeven maten is meegenomen.</p>
+        </div>
+        <div>
+          <h3>Nederland en België: vergelijk je eigen situatie</h3>
+          <p>Verzendkosten naar Nederland inschatten en verzendkosten naar België vergelijken vraagt telkens om de juiste bestemming, inhoud en actuele routevoorwaarden. Gebruik een eerdere zending alleen als achtergrond, niet als vaste prijs voor je volgende pakket.</p>
+          <p>Beschikbare verzendopties controleren doe je vóór je beslist. Vraag naar uitsluitingen en ontbrekende kosten. Deze gids vermeldt geen vaste tarieven, levertijden of gegarandeerde acceptatie van merken.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-layout" id="veelgestelde-vragen" aria-labelledby="faq-titel">
+      <div class="faq-intro"><p class="eyebrow">Direct antwoord</p><h2 id="faq-titel">Veelgestelde vragen.</h2><p>Een korte uitleg voor je volgende stap. De antwoorden horen bij deze leeswijzer en vormen geen productbeoordeling.</p></div>
+      <div>
+        <details open><summary>Wat is een Sugargoo spreadsheet?</summary><p>Een Sugargoo spreadsheet is een overzicht van productvondsten en bronlinks dat mensen gebruiken bij hun voorbereiding op aankopen via Sugargoo. Het kan een echt rekenblad of een website met categorieën zijn. Een vermelding bewijst geen beschikbaarheid, kwaliteit of acceptatie door de agent.</p></details>
+        <details><summary>Hoe gebruik ik een Sugargoo spreadsheet voor beginners?</summary><p>Begin bij één categorie. Bewaar de exacte productlink, kies de gewenste variant en vergelijk de maattabel met je eigen maten. Noteer ontbrekende informatie en controleer de actuele voorwaarden voordat je verdergaat.</p></details>
+        <details><summary>Waar openen de product- en categorielinks op deze pagina?</summary><p>De tien categorieknoppen openen de bijbehorende categorie op hipobuyfind.com. Alle overige bezoeklinks openen https://www.hipobuyfind.com. Deze pagina plaatst geen bestelling en koppelt geen product automatisch aan een Sugargoo-account.</p></details>
+        <details><summary>Bewijzen Sugargoo QC-foto’s dat een artikel authentiek is?</summary><p>Nee. QC-foto’s kunnen zichtbare eigenschappen en afwijkingen tonen, maar bewijzen op zichzelf geen authenticiteit, materiaalgehalte of duurzaamheid. Controleer ook of de foto’s bij jouw exacte artikelvariant horen.</p></details>
+        <details><summary>Hoe kan ik Sugargoo verzendkosten vergelijken?</summary><p>Gebruik je bestemming, de actuele pakketgegevens en de beschikbare verzendopties. Vergelijk wat een offerte omvat en welke kosten nog ontbreken. De artikelprijs of een ongewogen verzameling producten is onvoldoende voor een betrouwbare totaalprijs.</p></details>
+        <details><summary>Kan ik ieder afgebeeld merk via Sugargoo bestellen?</summary><p>Ga daar niet van uit. Controleer vóór betaling of de agent het exacte artikel accepteert en of een passende verzendroute beschikbaar is. De merkbeelden op deze pagina zijn illustraties, geen bevestiging van bestelbaarheid of officiële samenwerking.</p></details>
+        <details><summary>Wat doe ik met een productlink die niet meer werkt?</summary><p>Bewaar de oorspronkelijke link met je controledatum en markeer het artikel als niet bevestigd. Zoek een alternatief op basis van de precieze variant en controleer de nieuwe bron opnieuw; een vergelijkbare foto bewijst niet dat het hetzelfde artikel is.</p></details>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="verder">
+      <div><h2 id="verder">Je volgende vondst begint met één duidelijke keuze.</h2><p>Kies een categorie, bewaar de precieze variant en neem alleen bevestigde gegevens mee in je vergelijking.</p></div>
+      <a class="button" href="https://www.hipobuyfind.com">Verder naar HIPOBUYFIND ↗</a>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer-inner">
+      <p>Nederlandse leeswijzer over Sugargoo spreadsheet. Onafhankelijke informatie; geen officiële vertegenwoordiging van Sugargoo, Nike, Louis Vuitton, Gucci, Hermès of Dior. Merknamen blijven eigendom van hun rechthebbenden. Illustratieve merkbeelden zijn geen eigen QC-foto’s.</p>
+      <a href="https://www.hipobuyfind.com">hipobuyfind.com ↗</a>
+    </div>
+  </footer>
+</body>
+</html>
